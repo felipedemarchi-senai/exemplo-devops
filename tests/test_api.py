@@ -5,4 +5,4 @@ client = TestClient(app)
 
 def test_endpoint():
     response = client.get("/")
-    assert response.status_code == 300
+    assert response.status_code == 200
