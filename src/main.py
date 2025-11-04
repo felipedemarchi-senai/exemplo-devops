@@ -5,5 +5,5 @@ app = FastAPI()
 @app.get("/")
 def root():
     return {
-        "Hello World"
+        "Hello World com uma alteração"
     }
